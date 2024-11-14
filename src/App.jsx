@@ -1,9 +1,10 @@
 import './App.css';
+import Body from './components/Body/Body';
 
 function App() {
   return (
     <div className="App">
-        <h1 className='text-3xl text-blue-400'>Namaste React</h1>
+        <Body />
     </div>
   );
 }
